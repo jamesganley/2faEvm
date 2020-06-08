@@ -19,13 +19,12 @@ public class EVM {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         EVMGUI myGUI = new EVMGUI();
         myGUI.setVisible(true);
            
     try{
     
-        String username = "root";
+        String username = "scenic-doodad-262314:europe-north1:evmdata";
         String host = "35.228.170.103";
         String password="KleD7m3PIrOwl0b1";
 
@@ -35,6 +34,4 @@ public class EVM {
         System.out.println(err.getMessage());
     }
 }
-
-        
 }

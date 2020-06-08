@@ -46,7 +46,7 @@ public class EVMGUI extends javax.swing.JFrame {
         });
 
         rB1.setFont(new java.awt.Font("Georgia", 0, 36)); // NOI18N
-        rB1.setText("Donlad Trump");
+        rB1.setText("Jim Halbert");
         rB1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rB1ActionPerformed(evt);
@@ -206,7 +206,7 @@ public class EVMGUI extends javax.swing.JFrame {
         
         
         
-        javax.swing.JOptionPane.showMessageDialog( EVMGUI.this, "You have selected '"+radioText+"'");
+        javax.swing.JOptionPane.showMessageDialog( EVMGUI.this, "You are voting for '"+radioText+"'");
         System.exit(0);
 
     }//GEN-LAST:event_btnRadiosActionPerformed
